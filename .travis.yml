@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HuH+CHZ2k6Bqiz3SK+m0c7SoU7oqgZGJCLi73CVLGQGXRcsyQ9TMpk8BClVgyc5VKHwAW/TFHTCGWxUXCxNA8hDA7/fnVOdNEI4u6qe888FQX5jPoc+c0cof1HpnjDSvomaRkGcXqVhcEhbPjLvm4GDCD+VGCguSA49NsMzTrQMalpSzSaAUsB0Ub878+1CHof6+6oZ4jyuucSJuwTN7DFpEZnpHT+eXcHZWuDHxffWQ2PZD3BFPrjnWwtX5SZSv+//BHFZe1NXHCx1YcFDraUEdz3eMy3bXga9OJs9VL3c+nOtrK4dgXIuFCWmMCiq+AnOqwp5xs9f6YfRm7IPpt5Ela7D61vbx7yT889BAclgVwh1rBEOXNATHhSonyv4Pz5n6JjRwD5cw8QoTphh9kUpvOHGwvcTPZ2/m1iIEInFhx1/ZZkd1F2h6CgfRRqRRocN+vXdXyXWfbpsYUHXR02nIVk0JH36itLJYq77VEXIbAj5d11NdP1hxVO6CNMAFMqP33R7UdHkof/cCISe+BCRlSJxXA56ocErVNWF4jO1xLInLxXx9E4GH35zL0PQqo8EC4SPrNKa6svs2Mh3NpbM5jkkPmdssV2V+gUb8bbCx1B4wB4CWsjyf3w0HpoAYpwFVdNq5aApXoamdYhE81hY46n4Nu4fGHSo2HQnVov4=
+  app: nameless-cliffs-95182
+  on:
+    repo: taypsl/node-shopping-list-integration-tests
